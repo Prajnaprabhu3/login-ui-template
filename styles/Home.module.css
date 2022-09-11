@@ -1,39 +1,47 @@
-.container {
-  padding: 0 2rem;
+.signinSignup{
+    height: 43rem;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.imageSection{
+    height: 43rem;
 }
 
 
 
-
-
-
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.logo{
+    position: inherit;
 }
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+
+.semiCircleOne{
+    height: 0.5rem;
+    width: 1rem;
+    border-radius: 10rem 10rem 0 0;
+    background: #194BFB;
+    transform: rotate(40deg);
+    position: relative;
+    top: -0.4rem;
+    left: 0rem;  
+    
+
+}
+
+
+.semiCircleTwo{
+    height: 0.5rem;
+    width: 1rem;
+    border-radius: 10rem 10rem 0 0;
+    background: #194BFB;
+    transform: rotate(220deg);
+    position: relative;
+    margin: -6px;
+    /* top: -7.5rem;
+    left: 7rem; */
+    
+
+}
+
+.google{
+    border: 1px solid gray;
+    color: green;
 }
