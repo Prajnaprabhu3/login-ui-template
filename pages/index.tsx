@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import LoginSignUpUI from '../components/LoginSignUpUI'
+import LoginSignUpUI from './LoginSignUpUI'
 
 
 const Home: NextPage = () => {
