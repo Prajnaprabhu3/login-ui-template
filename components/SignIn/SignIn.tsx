@@ -57,7 +57,9 @@ const LeftSection = () => {
 
     {/* row three - Signin button & Signup option  */}
     <div className='flex-col items-center mt-0 py-0 text-center cursor-pointer'>
+      <Link href="EmailVerify">
       <ButtonTwo buttonText='Sign in' customClass="blueButton"/>
+      </Link>
 
       {/* Dont have an account stuff?  */}
       <div className='m-8'>

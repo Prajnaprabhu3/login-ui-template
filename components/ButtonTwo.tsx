@@ -14,7 +14,7 @@ const ButtonTwo = ({ onClick, prefixLogo, suffixLogo, buttonText, customClass }:
     return (
         <div onClick={onClick} className={`justify-center bg-blue-700 text-white inline-block p-2 py-3 w-2/3 rounded-lg font-semibold text-lg border-2 ${customClass}`}>
         <div className='flex justify-center text-center align-middle'> 
-        <div className="prefixLogo   text-2xl">{prefixLogo}</div> 
+        <div className="prefixLogo text-2xl">{prefixLogo}</div> 
         <div>{buttonText}</div>
     </div>
     </div>

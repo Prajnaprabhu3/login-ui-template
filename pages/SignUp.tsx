@@ -38,8 +38,10 @@ const SignUp = () => {
        <div className='flex-col mt-8 items-center text-center'>
 
        {/* name & surname  */}
-       <input type="text" className="bg-white border border-gray-300 text-white-100 text-md font-light rounded-lg max-w-xl p-3 py-3" placeholder="Username or Email" required />
-       <input type="text" className="bg-white border border-gray-300 text-white-100 text-md font-light rounded-lg max-w-xl p-3 py-3" placeholder="Username or Email" required />
+      <div className='flex w-2/3 mx-auto justify-between m-4'>
+      <input type="text" className="bg-white border border-gray-300 text-white-100 text-md font-light rounded-lg w-3/3 p-3 py-3" placeholder="First name" required />
+       <input type="text" className="bg-white border border-gray-300 text-white-100 text-md font-light rounded-lg w-3/3 p-3 py-3" placeholder="Last name" required />
+      </div>
 
        {/* <InputField/> */}
        <input type="text" className="bg-white border border-gray-300 text-white-100 text-md font-light rounded-lg w-2/3 p-3 py-3" placeholder="Username or Email" required />
@@ -57,10 +59,11 @@ const SignUp = () => {
 
     {/* row three - Signin button & Signup option  */}
     <div className='flex-col items-center mt-0 py-0 text-center cursor-pointer'>
-      <ButtonTwo buttonText='Sign up' customClass="blueButton"/>
-
+     <Link href="/EmailVerify">
+     <ButtonTwo buttonText='Sign up' customClass="blueButton"/>
+     </Link>
       {/* Dont have an account stuff?  */}
-      <div className='m-8'>
+      <div className='m-6'>
        <Link href="/LoginSignUpUI">
         <div> <p className='font-light'>Already have an account? <span className='font-semibold'>Sign In</span> </p></div>
        </Link>
