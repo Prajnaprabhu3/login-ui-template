@@ -39,7 +39,7 @@ const SignUp = () => {
 
        {/* name & surname  */}
       <div className='flex w-2/3 mx-auto justify-between m-4'>
-      <input type="text" className="bg-white border border-gray-300 text-white-100 text-md font-light rounded-lg w-3/3 p-3 py-3" placeholder="First name" required />
+      <input type="text" className="bg-white border border-gray-300 text-white-100 text-md font-light rounded-lg w-3/3 p-3 py-3 " placeholder="First name" required />
        <input type="text" className="bg-white border border-gray-300 text-white-100 text-md font-light rounded-lg w-3/3 p-3 py-3" placeholder="Last name" required />
       </div>
 
